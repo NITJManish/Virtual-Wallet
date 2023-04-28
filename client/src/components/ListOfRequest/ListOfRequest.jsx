@@ -18,11 +18,25 @@ const ListOfRequest = () => {
     <th>Action</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>23-dec</td>
+    <td>50</td>
+    <td>Nidhi</td>
+    <td>Accepted</td>
+    <td>NA</td>
+  </tr>
+  <tr>
+    <td>24-dec</td>
+    <td>509</td>
+    <td>Khushboo</td>
+    <td>Deny</td>
+    <td>N.A</td>
+  </tr>
+  <tr>
+    <td>27-april</td>
+    <td>230</td>
+    <td>Manish</td>
+    <td>Accepted</td>
+    <td>NA</td>
   </tr>
 </table>
     </div>

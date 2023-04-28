@@ -1,5 +1,5 @@
-import { useState } from "react";
-import axios from "axios";
+// import { useState } from "react";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
@@ -21,7 +21,7 @@ const Wallet = () => {
     <>
       <div className={styles.main_container}>
         <div class={styles.table_container}>
-          <h1>Balance : 0 </h1>
+          <h1>Balance : 80000 </h1>
         </div>
         <div>
           <table>
@@ -33,11 +33,32 @@ const Wallet = () => {
               <th>Remarks</th>
             </tr>
             <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
+              <td>26-april</td>
+              <td>500</td>
+              <td>Cr</td>
+              <td>50000</td>
+              <td>Accept</td>
+            </tr>
+            <tr>
+              <td>27-april</td>
+              <td>500</td>
+              <td>Cr</td>
+              <td>50000</td>
+              <td>Accept</td>
+            </tr>
+            <tr>
+              <td>28-april</td>
+              <td>500</td>
+              <td>Cr</td>
+              <td>50000</td>
+              <td>Deny</td>
+            </tr>
+            <tr>
+              <td>28-april</td>
+              <td>5000</td>
+              <td>Dr</td>
+              <td>60000</td>
+              <td>Deny</td>
             </tr>
           </table>
         </div>
